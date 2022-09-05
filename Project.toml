@@ -1,0 +1,21 @@
+name = "Multiplex Mobility Network Italy (SIR metapopulation model)"
+authors = ["A Desiderio <riegel.desiderio.antonio@gmail.com>"]
+
+[deps]
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+LazyJSON = "fc18253b-5e1b-504c-a4a2-9ece4944c004"
+ProgressBars = "49802e3a-d2f1-5c88-81d8-b72133a6f568"
+Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
+MetaGraphs = "626554b9-1ddb-594c-aa3c-2596fe9399a5"
+JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
+
+[compat]
+CSV = "0.10.2"
+DataFrames = "1.3.2"
+LazyJSON = "0.2.2"
+ProgressBars = "1.4.0"
+JSON = "0.21.3"
+MetaGraphs = "0.7.1"
+Graphs = "1.6.0"
+julia = "1.7.2"
