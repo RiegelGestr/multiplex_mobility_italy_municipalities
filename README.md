@@ -12,11 +12,11 @@ Julia Packages: [Project.toml](https://github.com/RiegelGestr/multiplex_mobility
 ### How the repository is structured
 - `scraping`: this folder contains the code and documentation to use the API <em>Viaggiotreno</em> and to parse the pdf files from <em>ENAC</em>. For a more in depth explanation of the code, [click here](https://github.com/RiegelGestr/multiplex_mobility_italy_municipalities/blob/main/scraping/scraping_readme.md).
 - `network_construction`: this folder contains the code and documentation for the network construction part of the pipeline. For a more in depth explanation of the code, [click here](https://github.com/RiegelGestr/multiplex_mobility_italy_municipalities/blob/main/network_construction/network_construction_readme.md).
-- `epidemics`: this folder contains the code and documentation for the epidemics part. The code can be run without the other parts, making sure you have dowloaded the small data from [zenodo_small_folder.txt](data.com) and installed the needed julia requirements. Note that although some part of the code are general, it assumes that the input network is a multiplex and it is designed to run simulations of the SIR model as explained in the paper.
+- `epidemics`: this folder contains the code and documentation for the epidemics part. The code can be run without the other parts, making sure you have dowloaded the small data from [network_small_folder](https://zenodo.org/record/7050931/files/network_small_folder.zip?download=1) and installed the needed julia requirements. Note that although some part of the code are general, it assumes that the input network is a multiplex and it is designed to run simulations of the SIR model as explained in the paper.
 
 ## Extra-link
 - [Pre-print](https://arxiv.org/abs/2205.03639)
-- [Data](https://zenodo.com/)
+- [Data](https://zenodo.org/record/7050931#.YxYDcS8QO-x)
 
 ## For Developers
 License: MIT

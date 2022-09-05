@@ -20,7 +20,7 @@ Inside this script there are utility functions.
 
 ## `simulations.jl`
 The function `read_and_initialize_the_model` load the data from the folder `network`, that can be
-downloaded from [zenodo_small_folder](https://github.com), and initialize a `Model` struct, given the input passed.
+downloaded from [network_small_folder](https://zenodo.org/record/7050931/files/network_small_folder.zip?download=1), and initialize a `Model` struct, given the input passed.
 The input of this function are:
 - `lockdown_flag` a `Bool` variable used to know if some layers need to be removed and reinserted at the given time `[t0,t1]`
 - `lockdowns` a `Vector` of `Int64` representing the number of the layers to be removed and reinserted. `1` is associated to `intra_prov`, `2` to `inter_prov`, `3` to `train`,`4` to `flight`. In case `lockdown_flag` is `false` pass an empty `Vector`.
